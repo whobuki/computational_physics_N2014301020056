@@ -1,8 +1,8 @@
 # Computational_physics_N2014301020056
 
 ## Homework list
-1. [exercise_01]()
-2. [exercise_02]()
+1. [exercise_01](null)
+2. [exercise_02](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/exercise_02.md)
 3. [exercise_03]()
 4. [exercise_04]()
 5. [exercise_05]()
