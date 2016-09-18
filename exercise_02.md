@@ -9,19 +9,19 @@
 ---
 ![代码截图](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/code_image.png)
 ---
-'''# -*- coding: utf-8 -*-
-"""
-Created on Sat Sep 18 22:11:38 2016
-
-@author: Zou
-"""
-print ('#######    #######    #     #')
-print ('     #          #      #   #')
-print ('    #          #        # #')
-print ('   #          #          #')
-print ('  #          #           #')
-print (' #          #            #')
-print ('#######    #######       #')'''
 [代码](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/exercise_02.py)
+    # -*- coding: utf-8 -*-
+    """
+    Created on Sat Sep 18 22:11:38 2016
+    
+    @author: Zou
+    """
+    print ('#######    #######    #     #')
+    print ('     #          #      #   #')
+    print ('    #          #        # #')
+    print ('   #          #          #')
+    print ('  #          #           #')
+    print (' #          #            #')
+    print ('#######    #######       #')
 ---
 ![运行结果截图](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/result.png)
