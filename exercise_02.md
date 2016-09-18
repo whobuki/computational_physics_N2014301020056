@@ -8,5 +8,7 @@
 ##代码
 ---
 ![代码截图](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/code_image.png)
+---
 [代码](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/exercise_02.py)
-![运行结果截图]()
+---
+![运行结果截图](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/result.png)
