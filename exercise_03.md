@@ -30,4 +30,6 @@
         import os
         i=os.system('cls')
 ---
-![运行结果截图](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/result_03.gif)
+![运行结果截图1](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/03_01.jpg)
+![运行结果截图1](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/03_02.jpg)
+![运行结果截图1](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/03_03.jpg)
