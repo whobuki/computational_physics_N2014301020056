@@ -4,7 +4,7 @@
 ##作业内容
 #####让名字在屏幕上动起来
 ##思路
-#####使用for/break循环指令来在print的内容前插入空格，空格数量由range()控制。使用time.sleep来挂起进程来控制名字移动速度，并使用os.system调用cls清屏从而使图像连贯
+#####使用for/break循环指令来在print的内容前插入空格，空格数量由range()控制。使用time.sleep来挂起进程来控制名字移动速度，并使用os.system调用cls清屏从而使图像连贯不产生
 ##代码
 ---
 ![代码截图](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/code_image_03.png)
