@@ -3,8 +3,8 @@
 ## Homework list
 1. [exercise_01](null)
 2. [exercise_02](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/exercise_02.md)
-3. [exercise_03]()
-4. [exercise_04]()
+3. [exercise_03](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/exercise_03.md)
+4. [exercise_04](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/exercise_04.md)
 5. [exercise_05]()
 6. [exercise_06]()
 7. [exercise_07]()
