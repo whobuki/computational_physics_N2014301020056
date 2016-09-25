@@ -14,5 +14,3 @@
 11. [exercise_11]()
 12. [exercise_12]()
 13. [exercise_13]()
----
-![](https://github.com/tmh726699/compuational_physics_2014301020051/blob/master/20160925155205.png)
