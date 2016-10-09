@@ -38,4 +38,3 @@ class uranium_decay:
 a = uranium_decay()
 a.calculate()
 a.show_results()
-)
