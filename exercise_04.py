@@ -1,9 +1,11 @@
 import pylab as pl
 class uranium_decay:
     def __init__(self, number_of_nuclei_A = 100,\
-    number_of_nuclei_B = 0,time_constant_1 = 1,\
-    time_constant_2 = 1, time_of_duration = 8,\
-    time_step = 0.05):
+                 number_of_nuclei_B = 0,\
+                 time_constant_1 = 1,\
+                 time_constant_2 = 1,\
+                 time_of_duration = 8,\
+                 time_step = 0.05):
         # unit of time is second
         self.n1_uranium = [number_of_nuclei_A ]
         self.n2_uranium = [number_of_nuclei_B ]
