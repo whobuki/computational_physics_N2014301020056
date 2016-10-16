@@ -1,4 +1,5 @@
 
+
 # Exercise 05 The Trajectory of a Cannon Shell
 #####邹志远_2014301020056
 
@@ -11,8 +12,11 @@
 我们使用欧勒法可以简单又不失精准的解决炮弹运动这类ODE问题。不考虑阻力的情况下炮弹运动遵循以下方程：
 
 <img src="http://latex.codecogs.com/gif.latex?\x_{i+1}=x_i+v_{x,i}\Delta{t}" alt="" title="" />
+
 <img src="http://latex.codecogs.com/gif.latex?\v_{x,i+1}=v_{x,i}" alt="" title="" />
+
 <img src="http://latex.codecogs.com/gif.latex?\y_{i+1}=y_i+v_{y,i}\Delta{t}" alt="" title="" />
+
 <img src="http://latex.codecogs.com/gif.latex?\v_{y,i+1}=v_{y+i}-g\Delta{t}" alt="" title="" />
 
 以下是程序源代码：
