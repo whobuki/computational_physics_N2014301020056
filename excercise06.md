@@ -1,4 +1,3 @@
-
 # Exercise 06 The Trajectory of a Cannon Shell2
 
 ##目标
@@ -9,6 +8,7 @@
 #####附2.10题目
 
 > 2.10 Generalize the program developed for the previous problem so that it can deal with situations in which the target is at a different altitude than the cannon. Consider cases in which the target is higher and lower than the cannon. Also investigate how the minimum firing velocity required to hit the target varies as the altitude of the target is varied.
+
 ##背景
 ---
 > The Euler method we used to treat the bicycle problem can easily be generalized to deal with motion in two spatial dimensions. To be specific, we consider a projectile such as a shell shot by a cannon. We have a very large cannon in mind, and the large size will determine some of the important physics...
