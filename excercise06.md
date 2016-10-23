@@ -15,32 +15,25 @@
 ![](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/ex05_1.jpg)
 
 * 空气阻力满足，其中$\rho_0$为海平面处的空气密度。：
-$$F_{drag}=\frac{\rho}{\rho_0}B_2*v^2$$
-$$F_{drag,x}=F_{drag}*cos=\frac{\rho}{\rho_0}B_2*v*v_x$$
+![](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/ex6_3.jpg)
 
 
 * 考虑绝热模型下空气密度随海拔高度的变化，其中$y_0\approx10km$：
-$$\rho=\rho_0*exp(-y/y_0)$$
+
+![](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/ex6_4.jpg)
 即考虑海拔高度和空气阻力时，炮弹运动满足：
-$$x_{i+1}=x_i+v_{x,i}\Delta{t}$$
 
-$$v_{x,i+1}=v_{x,i}-exp(-y_i/y_0)\frac{B_2*v*v_x}{m}\Delta t$$
+![](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/ex6_5.jpg)
 
-$$y_{i+1}=y_i+v_{y,i}\Delta{t}$$
-
-$$v_{y,i+1}=v_{y+i}-g\Delta{t}-exp(-y_i/y_0)\frac{B_2*v*v_y}{m}\Delta t$$
 * 再引入迎面风
 迎面风的作用等于改变了炮弹相对空气的运动速度，式中$v_w$为风速(迎面相对速度相加)：
-$$F_{drag,x}=F_{drag}*cos=\frac{\rho}{\rho_0}B_2*(\vec v+\vec v_w)*(v_x+v_{w,x})$$
-$$F_{drag,y}=F_{drag}*sin=\frac{\rho}{\rho_0}B_2*(\vec v+\vec v_w)*(v_x+v_{w,y})$$
+
+![](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/ex6_6.jpg)
+
 综上所述，炮弹运动满足：
-$$x_{i+1}=x_i+v_{x,i}\Delta{t}$$
 
-$$v_{x,i+1}=v_{x,i}-exp(-y_i/y_0)\frac{B_2*(\vec v-\vec v_w)*(v_x-v_{w,x})}{m}\Delta t$$
+![](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/ex6_7.jpg)
 
-$$y_{i+1}=y_i+v_{y,i}\Delta{t}$$
-
-$$v_{y,i+1}=v_{y+i}-g\Delta{t}-exp(-y_i/y_0)\frac{B_2*(\vec v-\vec v_w)*(v_x-v_{w,y})}{m}\Delta t$$
 ##程序
 ---
 ```python
