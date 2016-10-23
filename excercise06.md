@@ -1,5 +1,4 @@
 # Exercise 06 The Trajectory of a Cannon Shell2
-#####邹志远_2014301020056
 
 ##目标
 ---
