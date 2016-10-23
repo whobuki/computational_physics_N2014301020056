@@ -1,10 +1,13 @@
+
 # Exercise 06 The Trajectory of a Cannon Shell2
 
 ##目标
 ---
 * 作业L1 2.10题强化版（引入迎面风阻）
 * 作业L2 2.10题进一步升级，发展“超级辅助精确打击系统”（考虑炮弹初始发射的时候发射角度误差正负2度，速度有5%的误差，迎面风阻误差10%，计算需要考虑海拔高度的影响，使用绝热模型进行计算，误差描述使用最简单的均匀分布描述）
+
 #####附2.10题目
+
 > 2.10 Generalize the program developed for the previous problem so that it can deal with situations in which the target is at a different altitude than the cannon. Consider cases in which the target is higher and lower than the cannon. Also investigate how the minimum firing velocity required to hit the target varies as the altitude of the target is varied.
 ##背景
 ---
@@ -20,6 +23,7 @@
 * 考虑绝热模型下空气密度随海拔高度的变化，其中$y_0\approx10km$：
 
 ![](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/ex6_4.png)
+
 即考虑海拔高度和空气阻力时，炮弹运动满足：
 
 ![](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/ex6_5.png)
