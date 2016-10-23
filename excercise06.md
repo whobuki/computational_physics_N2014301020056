@@ -126,8 +126,7 @@ class cannon_shell:
             v = ((vx + self.Vw)**2+vy**2)**0.5
             vx = vx \
                  - math.exp(-yi[-1] / 10) * self.b_m * v * (vx+self.Vw) * self.dt
-            vy = vy \
-                 - self.g * self.dt \
+            vy = vy \                 - self.g * self.dt \
                  - math.exp(-yi[-1] / 10) * self.b_m * v * vy * self.dt
             if (abs(xi[-1] - self.xt) < self.dxdy and abs(yi[-1] - self.yt) < self.dxdy):  # 判断是否命中
                 n=((xi[-1] - self.xt)**2+(yi[-1] - self.yt)**2)**0.5
