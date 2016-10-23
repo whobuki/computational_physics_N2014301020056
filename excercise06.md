@@ -14,24 +14,24 @@
 ![](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/ex05_1.jpg)
 
 * 空气阻力满足，其中$\rho_0$为海平面处的空气密度。：
-![](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/ex6_3.jpg)
+![](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/ex6_3.png)
 
 
 * 考虑绝热模型下空气密度随海拔高度的变化，其中$y_0\approx10km$：
 
-![](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/ex6_4.jpg)
+![](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/ex6_4.png)
 即考虑海拔高度和空气阻力时，炮弹运动满足：
 
-![](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/ex6_5.jpg)
+![](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/ex6_5.png)
 
 * 再引入迎面风
 迎面风的作用等于改变了炮弹相对空气的运动速度，式中$v_w$为风速(迎面相对速度相加)：
 
-![](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/ex6_6.jpg)
+![](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/ex6_6.png)
 
 综上所述，炮弹运动满足：
 
-![](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/ex6_7.jpg)
+![](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/ex6_7.png)
 
 ##程序
 ---
