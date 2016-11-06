@@ -59,7 +59,7 @@ class Driven_Nonlinear_Pendulum:
                     a = a - 2 * math.pi
                 elif (a < -math.pi):
                     a = a + 2 * math.pi
-            t=t+self.dt
+(            t=t+self.dt
             self.a1.append(a)
             self.t1.append(t)
 
@@ -111,7 +111,7 @@ a.compare()
 a.show_result()
 ```
 [代码链接](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/exercise07.py)
-3.14代码可以通过在第52行后简单插入```self.q=self.q+0.05```来实现
+3.14代码可以通过在第52行后(即pendulum1计算完成后)简单插入```self.q=self.q+0.05```来实现
 
 ##运行结果
 ---
