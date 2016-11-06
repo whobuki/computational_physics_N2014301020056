@@ -7,21 +7,14 @@
 ##背景
 ---
 对于一个无阻尼没有驱动力作简谐运动的摆，它的运动满足以下方程:
-$$\frac{d^2\theta}{dt^2}=-\frac{g}{l}\theta$$
+![](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/ex7_5.png)
 拆分可得
-$$\frac{d\omega}{dt}=-\frac{g}{l}\theta$$
-$$\frac{d\theta}{dt}=-\omega$$
+![](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/ex7_6.png)
 上章中euler法计算了炮弹轨迹的ODE并求出了轨迹，但对于本问题euler法并不适用，使用euler法会导致无论dt取的多小，对于任何非零的dt，系统的能量总是增多的。因此需要改用euler_cromer方法，具体操作为：
-$$\omega_{i+1}=\omega_i-(g/l)\theta_i\Delta t$$
-$$\theta_{i+1}=\theta_i+\omega_{i+1}\Delta t$$
-将euler法中的$\omega_i$改为$\omega_{i+1}$即可避免能量的无限增多
+![](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/ex7_7.png)
+将euler法中的<img src="http://latex.codecogs.com/gif.latex?\omega_i" alt="" title="" />改为<img src="http://latex.codecogs.com/gif.latex?\omega_{i+1}" alt="" title="" />即可避免能量的无限增多
 在此基础上引进阻尼和驱动力可得
-$$\frac{d\omega}{dt}=-\frac{g}{l}\theta-q\omega+F_Dsin(\Omega_Dt)$$
-$$\frac{d\theta}{dt}=-\omega$$
-$$\omega_{i+1}=\omega_i-((g/l)\theta_i-q\omega+F_Dsin(\Omega_Dt))\Delta t$$
-$$\theta_{i+1}=\theta_i+\omega_{i+1}\Delta t$$
-$$t_{i+1}=t_i+\Delta t$$
-
+![](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/ex7_8.png)
 ##程序
 ---
 3.13
