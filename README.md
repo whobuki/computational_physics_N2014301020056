@@ -10,7 +10,6 @@
 7. [exercise_07](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/exercis7.md)
 8. exercise_08
 9. exercise_09
-10. [exercise_10](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/10.md)
-11. [exercise_11]()
-12. [exercise_12]()
-13. [exercise_13]()
+11. exercise_11
+12. exercise_12
+13. [fianl_exam](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/fianl_exam.md)
