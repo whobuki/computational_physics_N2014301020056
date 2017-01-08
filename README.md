@@ -12,4 +12,4 @@
 9. exercise_09
 11. exercise_11
 12. exercise_12
-13. [fianl_exam](https://github.com/whobuki/computational_physics_N2014301020056/blob/master/fianl_exam.md)
+13. [fianl_exam](https://www.zybuluo.com/zzy9001/note/626198)
